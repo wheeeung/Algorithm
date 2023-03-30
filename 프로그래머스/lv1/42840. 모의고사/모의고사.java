@@ -21,21 +21,17 @@ class Solution {
                 z = 0;
             
             if(su1[j] == answers[i]){
-                System.out.println("1");
                 cnt1++;
             }
             if(su2[k] == answers[i]){
-                System.out.println("2");
                 cnt2++;
             }
             if(su3[z] == answers[i]){
-                System.out.println("3");
                 cnt3++;
             }
             j++;
             k++;
             z++;
-            System.out.println("adfaffasfsadfa");
         }
         
         int max = Math.max(Math.max(cnt1, cnt2), cnt3);
